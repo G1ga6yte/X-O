@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main/main.css">
+    <script async src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="player-mod-cont">
+            <div id="2" class="player2 player-button" onclick="Game(this)">2 PLAYERS</div>
+            <div id="1" class="player1 player-button">1 PLAYER</div>
+        </div>
+
+
+
+        <div class="massage-block">
+            <div class="players">
+                <span class="player-1">Player X</span>
+                <span class="player-2">Player O</span>
+                <span class="player-3">BoT</span>
+            </div>
+            <div class="board-closer"></div>
+            <div class="massage-game-mode">Chose Game Mode</div>
+            <div class="counter-block">
+                <span class="player1-calc">0</span>
+                <div>:</div>
+                <span class="player2-calc">0</span>
+            </div>
+            <div class="win-massage"><span>Player <span class="playerID"></span> Win this Game,</span> <span>next will start in (<span class="winMassageTimer"></span>)</span></div>
+        </div>
+
+        <div class="gameblock-cont">
+            <div class="gameblock-board">
+                <div class="box1" onclick="getObj(this)"></div>
+                <div class="box2" onclick="getObj(this)"></div>
+                <div class="box3" onclick="getObj(this)"></div>
+                <div class="box4" onclick="getObj(this)"></div>
+                <div class="box5" onclick="getObj(this)"></div>
+                <div class="box6" onclick="getObj(this)"></div>
+                <div class="box7" onclick="getObj(this)"></div>
+                <div class="box8" onclick="getObj(this)"></div>
+                <div class="box9" onclick="getObj(this)"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
